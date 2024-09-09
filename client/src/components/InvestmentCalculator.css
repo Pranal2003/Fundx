@@ -1,0 +1,71 @@
+/* InvestmentCalculator.css */
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .product-info {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    max-height: 150px;
+  }
+  
+  .static-info {
+    font-weight: bold;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="number"],
+  input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+/* Modify the styles for smaller input boxes */
+input[type="number"].small-input,
+input[type="date"].small-input {
+  width: 50%; /* You can adjust the width as needed */
+  padding: 5px;
+  margin: 5px 0;
+}

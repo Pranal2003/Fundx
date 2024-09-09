@@ -1,0 +1,82 @@
+/* InvestmentOptions.css */
+.investment-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  }
+  
+  .investment-heading {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .investment-limit {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .remaining-limit {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .investment-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .investment-button {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .investment-button:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .investment-button img {
+    max-width: 100%;
+  }
+  
+  .investment-button span {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .investment-details {
+    margin-top: 20px;
+  }
+  
+  .investment-details h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .investment-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .investment-details li {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  

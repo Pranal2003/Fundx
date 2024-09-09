@@ -1,0 +1,82 @@
+
+/* styles.css */
+
+body {
+    background-image: url('/public/back2.jpg'); /* Adjust the URL based on the image's location */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the background image to cover the entire viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Additional styles for your content can be added here */
+  
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    max-width: 400px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .login-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+  }
+  
+  .register-link a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  
